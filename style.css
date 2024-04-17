@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .top-container {
@@ -18,6 +19,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
 
 ul {
@@ -66,6 +68,7 @@ a {
     background-color: aliceblue;
     text-align: center;
     align-content: center;
+    color: lightgray;
 
 }
 
@@ -75,4 +78,40 @@ a {
     border-radius: 4px;
     font-size: 18px;
     font-weight: 700;
+}
+/* Hero container ends here. */
+
+/* Information container starts here */
+
+.information {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card-placeholder {
+    height: 170px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card {
+    width: 150px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card p {
+    text-align: center;
+    color: #6b6b6b
 }
