@@ -9,6 +9,7 @@ body {
 .top-container {
     background-color: #1f2937;
     padding: 8px;
+    align-content: center;
 }
 /* Header section */
 .header {
@@ -43,11 +44,11 @@ a {
 .hero-container {
     display: flex;
     padding: 100px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .hero-content {
-    width: 350px;
+    width: 400px;
 }
 
 .hero-content h1 {
@@ -63,9 +64,9 @@ a {
 }
 
 .place-holder {
-    width: 400px;
+    width: 600px;
     max-height: 250px;
-    background-color: aliceblue;
+    background-color: grey;
     text-align: center;
     align-content: center;
     color: lightgray;
@@ -114,4 +115,77 @@ a {
 .card p {
     text-align: center;
     color: #6b6b6b
+}
+
+/* Information ends here  */
+
+/* Quote content starts  */
+
+.quote {
+    padding: 60px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    width: 830px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+
+span {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+/* Bottom container starts from here  */
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    margin: 32px 0;
+
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 700px;
+    border-radius: 8px;
+    padding: 30px 70px;
+}
+.left h2{
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.left p {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.right .button {
+    border: 2px solid white;
+}
+
+/* Footer starts here  */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
